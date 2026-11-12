@@ -1,0 +1,244 @@
+2026-11-09T12:37:47.508471+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=1000)
+2026-11-09T12:37:47.521529+05:00 ubuntu sudo: ikram : TTY=/dev/pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/sbin/userdel -r david
+2026-11-09T12:37:47.528969+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T12:38:22.759938+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=1000)
+2026-11-09T12:38:22.778309+05:00 ubuntu sudo: ikram : TTY=/dev/pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/sbin/userdel -r david
+2026-11-09T12:38:22.793492+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T12:39:45.731668+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=1000)
+2026-11-09T12:39:45.734561+05:00 ubuntu sudo: ikram : TTY=/dev/pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/rm -r /home/david
+2026-11-09T12:39:45.942041+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T12:40:15.478183+05:00 ubuntu sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by ikram(uid=1000)
+2026-11-09T12:40:15.484516+05:00 ubuntu systemd-logind[920]: Existing logind session ID 3 used by new audit session, ignoring.
+2026-11-09T12:40:15.555836+05:00 ubuntu systemd-logind[920]: New session 'c3' of user 'root' with class 'user-early' and type 'tty'.
+2026-11-09T12:40:15.689951+05:00 ubuntu (systemd): pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-09T12:40:15.701423+05:00 ubuntu systemd-logind[920]: New session '6' of user 'root' with class 'manager-early' and type 'unspecified'.
+2026-11-09T12:40:16.331889+05:00 ubuntu sudo: pam_systemd(sudo-i:session): Failed to check if /run/user/0/bus exists, ignoring: Permission denied
+2026-11-09T12:40:16.332682+05:00 ubuntu sudo: ikram : TTY=/dev/pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/bash 
+2026-11-09T12:40:50.909907+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T12:40:50.910186+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/rm -r /home/john
+2026-11-09T12:40:51.030943+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T12:41:19.257291+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T12:41:19.261146+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/rm -r /home/ali
+2026-11-09T12:41:19.718398+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T12:41:38.329951+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T12:41:38.341849+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/rm -r/home/roy
+2026-11-09T12:41:38.367562+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T12:42:14.738271+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T12:42:14.741716+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/rm -r /home/roy
+2026-11-09T12:42:14.753893+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T12:44:29.426773+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T12:44:29.427280+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home ; USER=root ; COMMAND=/usr/sbin/adduser jason
+2026-11-09T12:44:29.623683+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T12:47:23.642565+05:00 ubuntu dbus-daemon[853]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-11-09T12:56:16.363799+05:00 ubuntu groupdel[6304]: group 'developers' removed from /etc/group
+2026-11-09T12:56:16.380139+05:00 ubuntu groupdel[6304]: group 'developers' removed from /etc/gshadow
+2026-11-09T12:56:16.383711+05:00 ubuntu groupdel[6304]: group 'developers' removed
+2026-11-09T13:01:26.976632+05:00 ubuntu groupadd[6381]: group added to /etc/group: name=developers, GID=1008
+2026-11-09T13:01:26.992884+05:00 ubuntu groupadd[6381]: group added to /etc/gshadow: name=developers
+2026-11-09T13:01:26.994850+05:00 ubuntu groupadd[6381]: new group: name=developers, GID=1008
+2026-11-09T13:02:32.188585+05:00 ubuntu useradd[6394]: new group: name=roy, GID=1009
+2026-11-09T13:02:32.189917+05:00 ubuntu useradd[6394]: new user: name=roy, UID=1007, GID=1009, home=/home/roy, shell=/bin/sh, from=/dev/pts/1
+2026-11-09T13:02:52.895913+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T13:02:52.896657+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T13:03:18.008414+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T13:03:18.009484+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/passwd roy
+2026-11-09T13:03:35.492865+05:00 ubuntu passwd[6522]: pam_unix(passwd:chauthtok): password changed for roy
+2026-11-09T13:03:35.493635+05:00 ubuntu passwd[6522]: gkr-pam: couldn't update the login keyring password: no old password was entered
+2026-11-09T13:03:35.499475+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T13:07:04.351789+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T13:07:04.352696+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home ; USER=root ; COMMAND=/usr/sbin/adduser alex
+2026-11-09T13:07:04.509202+05:00 ubuntu groupadd[6584]: group added to /etc/group: name=alex, GID=1002
+2026-11-09T13:07:04.523761+05:00 ubuntu groupadd[6584]: group added to /etc/gshadow: name=alex
+2026-11-09T13:07:04.527142+05:00 ubuntu groupadd[6584]: new group: name=alex, GID=1002
+2026-11-09T13:07:04.590311+05:00 ubuntu useradd[6589]: new user: name=alex, UID=1002, GID=1002, home=/home/alex, shell=/bin/bash, from=/dev/pts/2
+2026-11-09T13:07:12.860379+05:00 ubuntu passwd[6600]: pam_unix(passwd:chauthtok): password changed for alex
+2026-11-09T13:07:12.860584+05:00 ubuntu passwd[6600]: gkr-pam: couldn't update the login keyring password: no old password was entered
+2026-11-09T13:07:22.530364+05:00 ubuntu chfn[6604]: changed user 'alex' information
+2026-11-09T13:07:25.607007+05:00 ubuntu gpasswd[6611]: members of group users set by root to ikram,alex
+2026-11-09T13:07:25.613161+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T13:09:41.320173+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T13:09:41.320931+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home ; USER=root ; COMMAND=/usr/sbin/usermod - aG developers alex
+2026-11-09T13:09:41.337906+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T13:14:59.906398+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T13:14:59.908057+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home ; USER=root ; COMMAND=/usr/sbin/deluser /home/alex
+2026-11-09T13:15:00.079546+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T13:15:50.523832+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T13:15:50.536264+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/rm -r /home/alex
+2026-11-09T13:15:50.538180+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T13:16:18.925159+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T13:16:18.925361+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/rm -r /home/roy
+2026-11-09T13:16:18.933859+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T13:17:01.685129+05:00 ubuntu CRON[6833]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-09T13:17:01.698984+05:00 ubuntu CRON[6833]: pam_unix(cron:session): session closed for user root
+2026-11-09T13:17:43.594809+05:00 ubuntu groupdel[6854]: group 'developers' removed from /etc/group
+2026-11-09T13:17:43.605957+05:00 ubuntu groupdel[6854]: group 'developers' removed from /etc/gshadow
+2026-11-09T13:17:43.608990+05:00 ubuntu groupdel[6854]: group 'developers' removed
+2026-11-09T13:19:13.759980+05:00 ubuntu userdel[6891]: delete user 'roy'
+2026-11-09T13:19:13.762676+05:00 ubuntu userdel[6891]: removed group 'roy' owned by 'roy'
+2026-11-09T13:19:13.763136+05:00 ubuntu userdel[6891]: removed shadow group 'roy' owned by 'roy'
+2026-11-09T13:19:22.525284+05:00 ubuntu userdel[6909]: delete user 'alex'
+2026-11-09T13:19:22.525848+05:00 ubuntu userdel[6909]: delete 'alex' from group 'users'
+2026-11-09T13:19:22.528835+05:00 ubuntu userdel[6909]: removed group 'alex' owned by 'alex'
+2026-11-09T13:19:22.529436+05:00 ubuntu userdel[6909]: removed shadow group 'alex' owned by 'alex'
+2026-11-09T13:19:22.529514+05:00 ubuntu userdel[6909]: delete 'alex' from shadow group 'users'
+2026-11-09T13:21:02.763758+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T13:21:02.772748+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home/ikram ; USER=root ; COMMAND=/usr/sbin/groupadd developers
+2026-11-09T13:21:02.810663+05:00 ubuntu groupadd[6981]: group added to /etc/group: name=developers, GID=1008
+2026-11-09T13:21:02.824678+05:00 ubuntu groupadd[6981]: group added to /etc/gshadow: name=developers
+2026-11-09T13:21:02.828248+05:00 ubuntu groupadd[6981]: new group: name=developers, GID=1008
+2026-11-09T13:21:02.831610+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T13:21:17.294780+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T13:21:17.295307+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home/ikram ; USER=root ; COMMAND=/usr/sbin/useradd -m alex
+2026-11-09T13:21:17.358881+05:00 ubuntu useradd[6997]: new group: name=alex, GID=1009
+2026-11-09T13:21:17.360054+05:00 ubuntu useradd[6997]: new user: name=alex, UID=1007, GID=1009, home=/home/alex, shell=/bin/sh, from=/dev/pts/2
+2026-11-09T13:21:17.441622+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T13:21:35.605775+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T13:21:35.606457+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home/ikram ; USER=root ; COMMAND=/usr/sbin/useradd -m roy
+2026-11-09T13:21:35.673895+05:00 ubuntu useradd[7015]: new group: name=roy, GID=1010
+2026-11-09T13:21:35.674048+05:00 ubuntu useradd[7015]: new user: name=roy, UID=1008, GID=1010, home=/home/roy, shell=/bin/sh, from=/dev/pts/2
+2026-11-09T13:21:35.762538+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T13:22:15.017977+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T13:22:15.018537+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home/ikram ; USER=root ; COMMAND=/usr/bin/passwd alex
+2026-11-09T13:22:19.274833+05:00 ubuntu passwd[7032]: pam_unix(passwd:chauthtok): password changed for alex
+2026-11-09T13:22:19.275473+05:00 ubuntu passwd[7032]: gkr-pam: couldn't update the login keyring password: no old password was entered
+2026-11-09T13:22:19.278088+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T13:22:28.867071+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T13:22:28.868377+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home/ikram ; USER=root ; COMMAND=/usr/bin/passwd roy
+2026-11-09T13:22:37.234305+05:00 ubuntu passwd[7048]: pam_unix(passwd:chauthtok): password changed for roy
+2026-11-09T13:22:37.234461+05:00 ubuntu passwd[7048]: gkr-pam: couldn't update the login keyring password: no old password was entered
+2026-11-09T13:22:37.237724+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T13:24:49.806223+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T13:24:49.806649+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home ; USER=root ; COMMAND=/usr/sbin/usermod -aG developers alex
+2026-11-09T13:24:49.853550+05:00 ubuntu usermod[7094]: add 'alex' to group 'developers'
+2026-11-09T13:24:49.855467+05:00 ubuntu usermod[7094]: add 'alex' to shadow group 'developers'
+2026-11-09T13:24:49.880032+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T13:25:09.250850+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T13:25:09.252422+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home ; USER=root ; COMMAND=/usr/sbin/usermod -aG developers roy
+2026-11-09T13:25:09.290987+05:00 ubuntu usermod[7111]: add 'roy' to group 'developers'
+2026-11-09T13:25:09.291235+05:00 ubuntu usermod[7111]: add 'roy' to shadow group 'developers'
+2026-11-09T13:25:09.329493+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T13:30:01.733979+05:00 ubuntu CRON[7177]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-09T13:30:01.743748+05:00 ubuntu CRON[7177]: pam_unix(cron:session): session closed for user root
+2026-11-09T13:31:37.741237+05:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2026-11-09T13:40:09.587109+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T13:40:09.587832+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home/ikram ; USER=root ; COMMAND=/usr/bin/chown alex devs
+2026-11-09T13:40:09.607987+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T13:41:24.352083+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=0)
+2026-11-09T13:41:24.352426+05:00 ubuntu sudo: root : TTY=/dev/pts/1 ; PWD=/home/ikram ; USER=root ; COMMAND=/usr/bin/chgrp developers devs
+2026-11-09T13:41:24.366937+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-09T14:17:01.948068+05:00 ubuntu CRON[7554]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-09T14:17:01.963219+05:00 ubuntu CRON[7554]: pam_unix(cron:session): session closed for user root
+2026-11-09T14:30:02.006842+05:00 ubuntu CRON[7568]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-09T14:30:02.016543+05:00 ubuntu CRON[7568]: pam_unix(cron:session): session closed for user root
+2026-11-09T15:17:01.118098+05:00 ubuntu CRON[7812]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-09T15:17:01.135181+05:00 ubuntu CRON[7812]: pam_unix(cron:session): session closed for user root
+2026-11-09T15:30:01.303103+05:00 ubuntu CRON[7826]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-09T15:30:01.312177+05:00 ubuntu CRON[7826]: pam_unix(cron:session): session closed for user root
+2026-11-09T16:17:01.958922+05:00 ubuntu CRON[7959]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-09T16:17:01.972290+05:00 ubuntu CRON[7959]: pam_unix(cron:session): session closed for user root
+2026-11-09T16:30:01.040732+05:00 ubuntu CRON[7986]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-09T16:30:01.049229+05:00 ubuntu CRON[7986]: pam_unix(cron:session): session closed for user root
+2026-11-09T17:17:01.252091+05:00 ubuntu CRON[8059]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-09T17:17:01.264053+05:00 ubuntu CRON[8059]: pam_unix(cron:session): session closed for user root
+2026-11-09T17:30:01.429764+05:00 ubuntu CRON[8092]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-09T17:30:01.439113+05:00 ubuntu CRON[8092]: pam_unix(cron:session): session closed for user root
+2026-11-09T18:17:13.327597+05:00 ubuntu CRON[8446]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-09T18:17:13.344213+05:00 ubuntu CRON[8446]: pam_unix(cron:session): session closed for user root
+2026-11-09T18:29:33.452975+05:00 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ikram(uid=1000)
+2026-11-09T18:29:33.463034+05:00 ubuntu pkexec[8490]: ikram: Executing command [USER=root] [TTY=unknown] [CWD=/home/ikram] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-11-09T18:30:01.405038+05:00 ubuntu CRON[8507]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-09T18:30:01.413658+05:00 ubuntu CRON[8507]: pam_unix(cron:session): session closed for user root
+2026-11-09T20:45:29.394384+05:00 ubuntu systemd-logind[815]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-11-09T20:45:29.394396+05:00 ubuntu systemd-logind[815]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-11-09T20:45:29.394402+05:00 ubuntu systemd-logind[815]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-11-09T20:45:29.394407+05:00 ubuntu systemd-logind[815]: New seat seat0.
+2026-11-09T20:45:39.396956+05:00 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-11-09T20:45:39.505095+05:00 ubuntu systemd-logind[815]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-11-09T20:45:39.972628+05:00 ubuntu (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-11-09T20:45:39.978086+05:00 ubuntu systemd-logind[815]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-11-09T20:46:30.135837+05:00 ubuntu gdm-password]: gkr-pam: unable to locate daemon control file
+2026-11-09T20:46:30.136107+05:00 ubuntu gdm-password]: gkr-pam: stashed password to try later in open session
+2026-11-09T20:46:30.172947+05:00 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user ikram(uid=1000) by ikram(uid=0)
+2026-11-09T20:46:30.198642+05:00 ubuntu systemd-logind[815]: New session '2' of user 'ikram' with class 'user' and type 'wayland'.
+2026-11-09T20:46:30.395821+05:00 ubuntu (systemd): pam_unix(systemd-user:session): session opened for user ikram(uid=1000) by ikram(uid=0)
+2026-11-09T20:46:30.421189+05:00 ubuntu systemd-logind[815]: New session '3' of user 'ikram' with class 'manager' and type 'unspecified'.
+2026-11-09T20:46:32.220575+05:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2026-11-09T20:46:50.275307+05:00 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-11-09T20:46:50.293960+05:00 ubuntu systemd-logind[815]: Session c1 logged out. Waiting for processes to exit.
+2026-11-09T20:46:50.324999+05:00 ubuntu systemd-logind[815]: Removed session c1.
+2026-11-09T20:47:01.118621+05:00 ubuntu systemd-logind[815]: Removed session 1.
+2026-11-09T20:47:02.982364+05:00 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ikram(uid=1000)
+2026-11-09T20:47:02.985552+05:00 ubuntu pkexec[3850]: ikram: Executing command [USER=root] [TTY=unknown] [CWD=/home/ikram] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-11-09T21:01:00.736213+05:00 ubuntu dbus-daemon[760]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-11-09T21:17:01.753105+05:00 ubuntu CRON[4194]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-09T21:17:01.770860+05:00 ubuntu CRON[4194]: pam_unix(cron:session): session closed for user root
+2026-11-09T21:30:01.241930+05:00 ubuntu CRON[4210]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-09T21:30:01.261443+05:00 ubuntu CRON[4210]: pam_unix(cron:session): session closed for user root
+2026-11-11T21:50:27.947998+05:00 ubuntu systemd-logind[899]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-11-11T21:50:27.948001+05:00 ubuntu systemd-logind[899]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-11-11T21:50:27.948004+05:00 ubuntu systemd-logind[899]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-11-11T21:50:27.948007+05:00 ubuntu systemd-logind[899]: New seat seat0.
+2026-11-11T21:50:33.634437+05:00 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-11-11T21:50:33.810014+05:00 ubuntu systemd-logind[899]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-11-11T21:50:34.056079+05:00 ubuntu (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-11-11T21:50:34.062886+05:00 ubuntu systemd-logind[899]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-11-11T21:54:17.206288+05:00 ubuntu unix_chkpwd[2579]: password check failed for user (ikram)
+2026-11-11T21:54:17.207317+05:00 ubuntu gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=ikram
+2026-11-11T21:56:05.378179+05:00 ubuntu gdm-password]: gkr-pam: unable to locate daemon control file
+2026-11-11T21:56:05.378271+05:00 ubuntu gdm-password]: gkr-pam: stashed password to try later in open session
+2026-11-11T21:56:05.412903+05:00 ubuntu gdm-password]: pam_unix(gdm-password:session): session opened for user ikram(uid=1000) by ikram(uid=0)
+2026-11-11T21:56:05.444064+05:00 ubuntu systemd-logind[899]: New session '2' of user 'ikram' with class 'user' and type 'wayland'.
+2026-11-11T21:56:05.574981+05:00 ubuntu (systemd): pam_unix(systemd-user:session): session opened for user ikram(uid=1000) by ikram(uid=0)
+2026-11-11T21:56:05.581542+05:00 ubuntu systemd-logind[899]: New session '3' of user 'ikram' with class 'manager' and type 'unspecified'.
+2026-11-11T21:56:06.514402+05:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2026-11-11T21:56:18.592506+05:00 ubuntu gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-11-11T21:56:18.631774+05:00 ubuntu systemd-logind[899]: Session c1 logged out. Waiting for processes to exit.
+2026-11-11T21:56:18.670185+05:00 ubuntu systemd-logind[899]: Removed session c1.
+2026-11-11T21:56:28.241998+05:00 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ikram(uid=1000)
+2026-11-11T21:56:28.288717+05:00 ubuntu pkexec[4052]: ikram: Executing command [USER=root] [TTY=unknown] [CWD=/home/ikram] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-11-11T21:56:29.174553+05:00 ubuntu systemd-logind[899]: Removed session 1.
+2026-11-11T22:07:22.641422+05:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2026-11-11T22:08:03.867837+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=1000)
+2026-11-11T22:08:03.868835+05:00 ubuntu sudo: ikram : TTY=/dev/pts/0 ; PWD=/home/ikram ; USER=root ; COMMAND=/usr/bin/apt install -y openssh-server
+2026-11-11T22:08:54.847951+05:00 ubuntu (systemd-stdio-bridge): pam_unix(login:session): session opened for user ikram(uid=1000) by ikram(uid=0)
+2026-11-11T22:08:55.241319+05:00 ubuntu (sd-pam): pam_unix(login:session): session closed for user ikram
+2026-11-11T22:09:10.493826+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-11T22:09:23.876504+05:00 ubuntu dbus-daemon[827]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-11-11T22:11:21.129172+05:00 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ikram(uid=1000)
+2026-11-11T22:11:21.132847+05:00 ubuntu pkexec[5641]: ikram: Executing command [USER=root] [TTY=unknown] [CWD=/home/ikram] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-11-11T22:13:16.460324+05:00 ubuntu gdm-password]: gkr-pam: unlocked login keyring
+2026-11-11T22:14:49.420796+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=1000)
+2026-11-11T22:14:49.421253+05:00 ubuntu sudo: ikram : TTY=/dev/pts/0 ; PWD=/home/ikram ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-11-11T22:14:49.568527+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-11T22:15:35.692048+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=1000)
+2026-11-11T22:15:35.692406+05:00 ubuntu sudo: ikram : TTY=/dev/pts/0 ; PWD=/home/ikram ; USER=root ; COMMAND=/usr/bin/systemctl status ssh.socket
+2026-11-11T22:15:35.793789+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-11T22:16:26.662452+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=1000)
+2026-11-11T22:16:26.662983+05:00 ubuntu sudo: ikram : TTY=/dev/pts/0 ; PWD=/home/ikram ; USER=root ; COMMAND=/usr/bin/systemctl disable --now ssh.socket
+2026-11-11T22:16:27.587980+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-11T22:16:27.618911+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=1000)
+2026-11-11T22:16:27.619008+05:00 ubuntu sudo: ikram : TTY=/dev/pts/0 ; PWD=/home/ikram ; USER=root ; COMMAND=/usr/bin/systemctl enable --now ssh.service
+2026-11-11T22:16:30.501868+05:00 ubuntu sshd[6407]: Server listening on 0.0.0.0 port 22.
+2026-11-11T22:16:30.507943+05:00 ubuntu sshd[6407]: Server listening on :: port 22.
+2026-11-11T22:16:30.508904+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-11T22:16:30.539687+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=1000)
+2026-11-11T22:16:30.539833+05:00 ubuntu sudo: ikram : TTY=/dev/pts/0 ; PWD=/home/ikram ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-11-11T22:16:30.666110+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-11T22:17:01.522520+05:00 ubuntu CRON[6521]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-11T22:17:01.540757+05:00 ubuntu CRON[6521]: pam_unix(cron:session): session closed for user root
+2026-11-11T22:18:23.815193+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=1000)
+2026-11-11T22:18:23.825261+05:00 ubuntu sudo: ikram : TTY=/dev/pts/0 ; PWD=/home/ikram ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/ikram/before/auth.log
+2026-11-11T22:18:23.835814+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-11T22:18:23.961757+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=1000)
+2026-11-11T22:18:23.963077+05:00 ubuntu sudo: ikram : TTY=/dev/pts/0 ; PWD=/home/ikram ; USER=root ; COMMAND=/usr/bin/chown ikram:ikram /home/ikram/before/auth.log
+2026-11-11T22:18:23.982021+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-11T22:18:24.060357+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=1000)
+2026-11-11T22:18:24.075738+05:00 ubuntu sudo: ikram : TTY=/dev/pts/0 ; PWD=/home/ikram ; USER=root ; COMMAND=/usr/sbin/ufw status
+2026-11-11T22:18:33.137974+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-11T22:18:33.195581+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=1000)
+2026-11-11T22:18:33.213888+05:00 ubuntu sudo: ikram : TTY=/dev/pts/0 ; PWD=/home/ikram ; USER=root ; COMMAND=/usr/sbin/sshd -T
+2026-11-11T22:18:33.243977+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-11T22:18:35.912943+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=1000)
+2026-11-11T22:18:35.913165+05:00 ubuntu sudo: ikram : TTY=/dev/pts/0 ; PWD=/home/ikram ; USER=root ; COMMAND=/usr/bin/ss -tulpn
+2026-11-11T22:18:36.046856+05:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+2026-11-11T22:18:36.232213+05:00 ubuntu sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ikram(uid=1000)

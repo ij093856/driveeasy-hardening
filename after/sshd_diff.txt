@@ -1,0 +1,42 @@
+--- /home/ikram/before/sshd_before.txt	2026-11-11 22:19:49.299733341 +0500
++++ /home/ikram/after/sshd_after.txt	2026-11-12 23:07:33.490470869 +0500
+@@ -6,6 +6,7 @@
+ allowagentforwarding yes
+ allowstreamlocalforwarding yes
+ allowtcpforwarding yes
++allowusers adminops
+ authenticationmethods any
+ authorizedkeyscommand none
+ authorizedkeyscommanduser none
+@@ -51,19 +52,19 @@
+ kexalgorithms mlkem768x25519-sha256,sntrup761x25519-sha512,sntrup761x25519-sha512@openssh.com,curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521
+ listenaddress 0.0.0.0:22
+ listenaddress [::]:22
+-logingracetime 120
++logingracetime 30
+ loglevel INFO
+ macs umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1
+-maxauthtries 6
++maxauthtries 3
+ maxsessions 10
+ maxstartups 10:30:100
+ modulifile /etc/ssh/moduli
+ pamservicename sshd
+-passwordauthentication yes
++passwordauthentication no
+ permitemptypasswords no
+ permitlisten any
+ permitopen any
+-permitrootlogin prohibit-password
++permitrootlogin no
+ permittty yes
+ permittunnel no
+ permituserenvironment no
+@@ -98,6 +99,6 @@
+ usepam yes
+ versionaddendum none
+ x11displayoffset 10
+-x11forwarding yes
++x11forwarding no
+ x11uselocalhost yes
+ xauthlocation /usr/bin/xauth
